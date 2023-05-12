@@ -16,4 +16,8 @@ The `newarray` being the new array will contain some data extracted (copied) fro
 
 The `slice()` method accepts two number type parameters. These numbers are indexes of the mentioned array. The new array starts from the index of mentioned array's index of the number that is provided as the first parameter in the `slice` method, and will contain all the elements upto the index that is provided as the second parameter.
 
+---
+**NOTE**
+
 It is important to remember that the index in the second parameter will not be contained in the new array. The one element behind that index will contain in the array. That is literally what ***"upto"*** means.
+---
