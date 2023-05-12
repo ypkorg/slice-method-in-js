@@ -42,3 +42,7 @@ Now we will see how we can fullfill our discussed requirements.
 ```js
 const topthreerankers = rajyas.slice(0, 3)
 ```
+
+Our requirements were, that we want top three placeholders in the new array. We declared a new array `topthreerankers` and assigned that to `slice` method applied to `rajyas` array. In the parameters of the `slice` method, we provided the first index `0` and the 4th index `3`. We particularly put 4th index, because we want all elements upto the 4th place, but not including the 4th. And the `slice` method exactly works like this. It does not gives you the element that is in the second parameter's index. 
+
+I hope this article made the concepts clear. 
