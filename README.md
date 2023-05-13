@@ -26,8 +26,9 @@ The `slice()` method accepts two `number type` parameters. These numbers are ind
 >
 > It is important to remember that the index in the second parameter will not be contained in the new array. The element that is one index behind of the second parameter provided to the `slice()` method will contain in the new array. That is literally what ***"upto"*** means.
 
-### What if we do not provide a second parameter ?
-Well if we do not provide a second parameter and provide only one number, then the new array will start from the element on that index in the parent array and will continue to the end of that array.
+> **Note** 
+>### What if we do not provide a second parameter ?
+> Well if we do not provide a second parameter and provide only one number, then the new array will start from the element on that index in the parent array and will continue to the end of that array.
 
 ## Usecases
 Alright, so now that we already discussed the syntax and technicality of this method. Now let's try to understand the usecases of it. 
