@@ -26,6 +26,9 @@ The `slice()` method accepts two `number type` parameters. These numbers are ind
 >
 > It is important to remember that the index in the second parameter will not be contained in the new array. The element that is one index behind of the second parameter provided to the `slice()` method will contain in the new array. That is literally what ***"upto"*** means.
 
+### What if we do not provide a second parameter ?
+Well if we do not provide a second parameter and provide only one number, then the new array will start from the element on that index in the parent array and will continue to the end of that array.
+
 ## Usecases
 Alright, so now that we already discussed the syntax and technicality of this method. Now let's try to understand the usecases of it. 
 
@@ -51,4 +54,4 @@ const topthreerankers = rajyas.slice(0, 3)
 
 Our requirements were, that we want top three placeholders in the new array. We declared a new array `topthreerankers` and assigned that to `slice()` method applied to `rajyas` array. In the parameters of the `slice()` method, we provided the first index `0` and the 4th index `3`. We particularly put 4th index, because we want all elements upto the 4th place, but not including the 4th. And the `slice()` method exactly works like this. It does not gives you the element that is in the second parameter's index. Rather it gives you the element that is just behind the index that is passed in the `slice()` method.
 
-I hope this article made the concepts clear. 
+I hope this article made the concepts clear.    
