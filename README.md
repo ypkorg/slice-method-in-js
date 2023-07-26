@@ -1,4 +1,5 @@
 <img src="./Slice%20method%202.png" width="100%" alt="Slice Method in JS Thumbnail" />
+
 ***
 
 # `slice()` method in Javascript
